@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>E-HR</title>
+  <title>Project</title>
   <link rel="icon" href="../dist/img/logo.png" type="image/x-icon" />
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -99,7 +99,7 @@
     <div class="bg-light">
       <a href="#" class="brand-link">
         <img src="../dist/img/logo.png" alt="AdminLTE Logo" class="brand-image" >
-        <span class="brand-text font-weight-bold ">title here</span>
+        <span class="brand-text font-weight-bold ">EdIsHere</span>
       </a>
     </div>
     
@@ -132,7 +132,7 @@
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="dash.php" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
                 Dashboard
@@ -142,188 +142,11 @@
             </a>
           </li>
 
-       
-
-          <!-- /.Accounting management -->
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <p>
-                  Accounting Management
-                  <i class="fas fa-angle-left right"></i>
-                  <span class="badge badge-info right"></span>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item ml-2">
-                  <a href="###" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Dashboard</p>
-                  </a>
-              </li>
-              <!-- journal entry -->
-              <li class="nav-item ml-2">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon fas fa-copy"></i>
-                  <p>
-                    Journal Entry
-                    <i class="fas fa-angle-left right"></i>
-                    <span class="badge badge-info right"></span>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item ml-2">
-                    <a href="journal_entry.php" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Manual Journal</p>
-                    </a>
-                  </li>
-                  <li class="nav-item ml-2">
-                    <a href="auto_journal.php" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Automatic Journal</p>
-                    </a>
-                  </li>
-                  <li class="nav-item ml-2">
-                    <a href="posted_journal.php" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Posted Journal</p>
-                    </a>
-                  </li>
-                  <li class="nav-item ml-2">
-                    <a href="general_ledger.php" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>General Ledger</p>
-                    </a>
-                  </li>
-                
-                </ul>
-              </li>
-              <!-- /.char of account -->
-              <li class="nav-item ml-2">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon fas fa-copy"></i>
-                  <p>
-                    Chart of account
-                    <i class="fas fa-angle-left right"></i>
-                    <span class="badge badge-info right"></span>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item ml-2">
-                    <a href="toa.php" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Type of account</p>
-                    </a>
-                  </li>
-                  <li class="nav-item ml-2">
-                    <a href="category.php" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Category</p>
-                    </a>
-                  </li>
-                  <li class="nav-item ml-2">
-                    <a href="subcategory.php" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Subcategory</p>
-                    </a>
-                  </li>
-                  <li class="nav-item ml-2">
-                    <a href="main_account.php" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Main account</p>
-                    </a>
-                  </li>
-                  <li class="nav-item ml-2">
-                    <a href="listcoa.php" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>List COA</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <!-- financials -->
-              <li class="nav-item ml-2">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon fas fa-copy"></i>
-                  <p>
-                    Financials
-                    <i class="fas fa-angle-left right"></i>
-                    <span class="badge badge-info right"></span>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item ml-2">
-                    <a href="####" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Trial Balance</p>
-                    </a>
-                  </li>
-                  <li class="nav-item ml-2">
-                    <a href="####" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Balance Sheet</p>
-                    </a>
-                  </li>
-                  <li class="nav-item ml-2">
-                    <a href="####" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Profit & Loss</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <!-- Automatic Journal Utility -->
-              <li class="nav-item ml-2">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon fas fa-copy"></i>
-                  <p style="font-size: 14px;">
-                    Automatic Journal Utility
-                    <i class="fas fa-angle-left right"></i>
-                    <span class="badge badge-info right"></span>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item ml-2">
-                    <a href="#" class="nav-link">
-                      <i class="nav-icon fas fa-copy"></i>
-                      <p style="font-size: 15px;">
-                        DSR
-                        <i class="fas fa-angle-left right mr-2"></i>
-                        <span class="badge badge-info right"></span>
-                      </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                      <li class="nav-item ml-4">
-                        <a href="products_utility.php" class="nav-link">
-                          <i class="far fa-circle nav-icon"></i>
-                          <p>Product</p>
-                        </a>
-                      </li>
-                      <li class="nav-item ml-4">
-                        <a href="discount_utility.php" class="nav-link">
-                          <i class="far fa-circle nav-icon"></i>
-                          <p>Discount</p>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                 
-                  <li class="nav-item ml-2">
-                    <a href="####" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>DIMR</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-
-          <!-- /.Product Services -->
+          <!-- /.Projects -->
           <li class="nav-item">
               <a href="#" class="nav-link">
                 <p>
-                  Purchase & Services
+                  Projects
                   <i class="fas fa-angle-left right"></i>
                   <span class="badge badge-info right"></span>
                 </p>
@@ -332,58 +155,28 @@
                 <li class="nav-item ml-2">
                     <a href="####" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>Purchase Price List</p>
+                        <p>Project 1</p>
                     </a>
                 </li>
                 <li class="nav-item ml-2">
                     <a href="####" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>Purchase Quotation</p>
+                        <p>Project 2</p>
                     </a>
                 </li>
                 <li class="nav-item ml-2">
                     <a href="####" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>Purchase Order</p>
-                    </a>
-                </li>
-                <li class="nav-item ml-2">
-                    <a href="####" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Purchase Invoice</p>
-                    </a>
-                </li>
-                <li class="nav-item ml-2">
-                    <a href="####" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Purchase Return</p>
-                    </a>
-                </li>
-                <li class="nav-item ml-2">
-                    <a href="####" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Service Quotation</p>
-                    </a>
-                </li>
-                <li class="nav-item ml-2">
-                    <a href="####" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Service Order</p>
-                    </a>
-                </li>
-                <li class="nav-item ml-2">
-                    <a href="####" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Service Invoice</p>
+                        <p>Project 3</p>
                     </a>
                 </li>
 
-                <!-- purchase utility -->
+                <!-- More Projects -->
                 <li class="nav-item ml-2">
                   <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-copy"></i>
                     <p>
-                      Utility
+                      More Projects
                       <i class="fas fa-angle-left right"></i>
                       <span class="badge badge-info right"></span>
                     </p>
@@ -392,115 +185,24 @@
                     <li class="nav-item ml-2">
                       <a href="####" class="nav-link">
                           <i class="far fa-circle nav-icon"></i>
-                          <p>Product Category</p>
+                          <p>Project 1</p>
                       </a>
                     </li>
                     <li class="nav-item ml-2">
                       <a href="####" class="nav-link">
                           <i class="far fa-circle nav-icon"></i>
-                          <p>Product Creation</p>
+                          <p>Project 2</p>
                       </a>
                     </li>
                     <li class="nav-item ml-2">
                       <a href="####" class="nav-link">
                           <i class="far fa-circle nav-icon"></i>
-                          <p>Brands</p>
+                          <p>Project 3</p>
                       </a>
                     </li>
-                    <li class="nav-item ml-2">
-                      <a href="####" class="nav-link">
-                          <i class="far fa-circle nav-icon"></i>
-                          <p>Units</p>
-                      </a>
-                    </li>
-                    <li class="nav-item ml-2">
-                      <a href="####" class="nav-link">
-                          <i class="far fa-circle nav-icon"></i>
-                          <p>Taxes</p>
-                      </a>
-                    </li>
-                  
                   </ul>
                 </li>
-
-              
               </ul>
-          </li>
-
-          <!-- /Sales -->
-          <li class="nav-item">
-              <a href="#" class="nav-link">
-                <p>
-                  Sales
-                  <i class="fas fa-angle-left right"></i>
-                  <span class="badge badge-info right"></span>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item ml-2">
-                    <a href="####" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Dashboard</p>
-                    </a>
-                </li>
-                <li class="nav-item ml-2">
-                    <a href="####" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Sales Quotation</p>
-                    </a>
-                </li>
-                <li class="nav-item ml-2">
-                    <a href="####" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Sales Order</p>
-                    </a>
-                </li>
-                <li class="nav-item ml-2">
-                    <a href="####" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Sales Invoice</p>
-                    </a>
-                </li>
-                <li class="nav-item ml-2">
-                    <a href="####" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Sales Return</p>
-                    </a>
-                </li>
-              </ul>
-          </li>
-
-          <!-- /.Inventory -->
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <p>
-                Inventory
-                <i class=""></i>
-                <span class="badge badge-info right"></span>
-              </p>
-            </a>
-          </li>
-
-          <!-- /.Budgets -->
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <p>
-                Budget
-                <i class=""></i>
-                <span class="badge badge-info right"></span>
-              </p>
-            </a>
-          </li>
-
-           <!-- /.Payroll -->
-           <li class="nav-item">
-            <a href="#" class="nav-link">
-              <p>
-                Payroll
-                <i class=""></i>
-                <span class="badge badge-info right"></span>
-              </p>
-            </a>
           </li>
 
           <!-- /.Settings -->
@@ -513,12 +215,12 @@
               </p>
             </a>
             <ul class="nav nav-treeview">
-              <!-- /Company heirarchy -->
+              <!-- /Project Settings -->
               <li class="nav-item ml-2">
                 <a href="#" class="nav-link">
                   <i class="nav-icon fas fa-copy"></i>
                   <p>
-                    Company heirarchy
+                    Project Settings
                     <i class="fas fa-angle-left right"></i>
                     <span class="badge badge-info right"></span>
                   </p>
@@ -527,44 +229,32 @@
                   <li class="nav-item ml-4">
                     <a href="ch_company.php" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
-                      <p>Company</p>
+                      <p>Project 1</p>
                     </a>
                   </li>
                   <li class="nav-item ml-4">
                     <a href="ch_division.php" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
-                      <p>Division</p>
+                      <p>Project 2</p>
                     </a>
                   </li>
                   <li class="nav-item ml-4">
                     <a href="ch_category.php" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
-                      <p>Category</p>
-                    </a>
-                  </li>
-                  <li class="nav-item ml-4">
-                    <a href="ch_department.php" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Department</p>
-                    </a>
-                  </li>
-                  <li class="nav-item ml-4">
-                    <a href="ch_all.php" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>List of all company</p>
+                      <p>Project 3</p>
                     </a>
                   </li>
                 </ul>
               </li>
               
               <li class="nav-item ml-2">
-                <a href="pages/layout/top-nav.html" class="nav-link">
+                <a href="create_user.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>User Creation</p>
                 </a>
               </li>
               <li class="nav-item ml-2">
-                <a href="create_book.php" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Create Book</p>
                 </a>

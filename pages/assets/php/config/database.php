@@ -13,8 +13,8 @@ class Database
 	public function open_db() {
 		$host 	= 	"localhost";  
 		$user 	= 	"root";
-		$pass 	= 	"root";
-		$db 	= 	'ehr';
+		$pass 	= 	"";
+		$db 	= 	'newproj';
 		$this->con = new mysqli($host,$user,$pass,$db);
 		if ($this->con->connect_errno) {
 			echo "Failed to connect to MySQL: " . $this->con->connect_error;

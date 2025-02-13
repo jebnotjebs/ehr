@@ -1,8 +1,8 @@
 <html lang="en">
 <head>
-  <title>EHR</title>
+  <title>New Project</title>
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-  <link rel="icon" href="../dist/img/logo_gb.png" type="image/x-icon" />
+  <link rel="icon" href="#" type="image/x-icon" />
   <meta charset="utf-8">
   
   <!-- Google Font: Source Sans Pro -->
@@ -52,7 +52,7 @@
         .login-card-container {
             flex: 1;
             display: flex;
-            justify-content: flex-end;
+            justify-content: center;
         }
         .login-card {
             height: 400px;
@@ -190,9 +190,6 @@
 
 <body class="hold-transition login-page">
   <div class="container">
-      <div class="logo">
-          <img src="../dist/img/logo.png" alt="Your Logo">
-      </div>
       <div class="login-card-container">
           <div class="login-card">
               <i class="fas fa-lg fa-user-lock"></i>

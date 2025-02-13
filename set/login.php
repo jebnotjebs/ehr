@@ -11,7 +11,7 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
     
-    $query = "SELECT * FROM L WHERE username = ? AND password = ?";
+    $query = "SELECT * FROM users WHERE username = ? AND password = ?";
     $params = [$username, $password];
 
     try {
