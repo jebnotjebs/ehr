@@ -141,68 +141,39 @@
               </p>
             </a>
           </li>
-
-          <!-- /.Projects -->
+          
+          <!-- Add Patient -->
           <li class="nav-item">
-              <a href="#" class="nav-link">
-                <p>
-                  Projects
-                  <i class="fas fa-angle-left right"></i>
-                  <span class="badge badge-info right"></span>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item ml-2">
-                    <a href="####" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Project 1</p>
-                    </a>
-                </li>
-                <li class="nav-item ml-2">
-                    <a href="####" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Project 2</p>
-                    </a>
-                </li>
-                <li class="nav-item ml-2">
-                    <a href="####" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Project 3</p>
-                    </a>
-                </li>
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-user-plus"></i>
+              <p>
+                Register Patient
+                <i class=""></i>
+                <span class="badge badge-info right"></span>
+              </p>
+            </a>
+          </li>
 
-                <!-- More Projects -->
-                <li class="nav-item ml-2">
-                  <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-copy"></i>
-                    <p>
-                      More Projects
-                      <i class="fas fa-angle-left right"></i>
-                      <span class="badge badge-info right"></span>
-                    </p>
-                  </a>
-                  <ul class="nav nav-treeview">
-                    <li class="nav-item ml-2">
-                      <a href="####" class="nav-link">
-                          <i class="far fa-circle nav-icon"></i>
-                          <p>Project 1</p>
-                      </a>
-                    </li>
-                    <li class="nav-item ml-2">
-                      <a href="####" class="nav-link">
-                          <i class="far fa-circle nav-icon"></i>
-                          <p>Project 2</p>
-                      </a>
-                    </li>
-                    <li class="nav-item ml-2">
-                      <a href="####" class="nav-link">
-                          <i class="far fa-circle nav-icon"></i>
-                          <p>Project 3</p>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-user-plus"></i>
+              <p>
+                History
+                <i class=""></i>
+                <span class="badge badge-info right"></span>
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-user-plus"></i>
+              <p>
+                Reports
+                <i class=""></i>
+                <span class="badge badge-info right"></span>
+              </p>
+            </a>
           </li>
 
           <!-- /.Settings -->

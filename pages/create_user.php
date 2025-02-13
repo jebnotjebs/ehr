@@ -88,10 +88,11 @@
 															<div class="col-md-6">
 																<div class="form-group form-group-default" >
 																	<label>Password</label>
-																	<input style="width: 100%;" class="form-control bg bg-light" name="password" id="password" required>
+																	<input type="password" style="width: 100%;" class="form-control bg bg-light" name="password" id="password" required>
+																	<i class="bi bi-eye-slash" id="togglePassword"></i>
 																</div>
 															</div>
-																											
+																							
 															<div class="col-sm-12 di mt-1">
 																<button type="submit" class="btn btn-primary float-right"> Save </button>
 																<button type="button" class="btn btn-danger float-left" data-dismiss="modal">Close</button>
@@ -133,7 +134,7 @@
 															<div class="col-md-6">
 																<div class="form-group form-group-default" >
 																	<label>Password</label>
-																	<input style="width: 100%;" class="form-control bg bg-light" name="edit_password" id="edit_password" required>
+																	<input type="password" style="width: 100%;" class="form-control bg bg-light" name="edit_password" id="edit_password" required>
 																</div>
 															</div>
 																											
